@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+   <channel>
+      <title>Summary Of Usenet Links</title>
+      <link>http://www.mcleod-schmidt.id.au/~acfsoul</link>
+      <description>Summary of alt.comp.freeware.</description>
+      <language>en-us</language>
+      <pubDate>PUBDATE-FIELD</pubDate>
+ITEMS-FIELD
+   </channel>
+</rss>

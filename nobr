@@ -1,0 +1,6 @@
+# No backslash r
+# delete \r from a file
+
+tr -d \\r <$1 >temp.nobr
+mv temp.nobr $1
+

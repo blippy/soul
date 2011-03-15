@@ -1,0 +1,17 @@
+From: Mark Carter <me@privacy.net>
+Newsgroups: [DEST-GROUP]
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.24) (Not Really!!)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+Subject: [SRC-GROUP] links at [TIME]
+
+Here are the latest links on [SRC-GROUP]
+
+[SUMMARY]
+
+
+For more information, including latest summary and archives, visit
+http://www.mcleod-schmidt.id.au/~acfsoul
+Thanks to Gary Schmidt for hosting these scripts.
+SOUL-OMIT-ARTICLE

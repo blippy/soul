@@ -1,0 +1,9 @@
+crontab -r
+crontab -e <<EOF
+.a
+20 21 * * * $HOME/soul/soul.bat
+# 0 * * * * /bin/bash $HOME/soul/soul.bat
+.
+w
+q
+EOF

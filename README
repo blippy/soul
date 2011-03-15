@@ -1,0 +1,50 @@
+ANN: soul.py v0.8 - Summary Of Usenet Links
+
+Description
+-----------
+
+SOUL is a python script that downloads news articles (e.g. from
+Usenet) via NNTP, and summarises the articles that it finds. It is
+currently in an alpha stage, quite usable, but unlikely to move beyond
+the alpha stage.
+
+
+Usage
+-----
+
+Typical usage might be:
+python soul.py -g alt.comp.freeware --last acf.txt \
+   -p password -s news.individual.net -u username
+
+The --last option specifies a file to store the ID of the last article
+in the group. Specify a non-existent filename (the initials of the
+group would be a sensible choice) when you first run it for a
+particular group. Soul will then only summarise the last 10 articles
+to the group. Subsequent runs will remember the last article read, so
+it should prove more useful after that.
+
+For detailed help on usage and options, type:
+python soul.py -h
+
+
+Requirements
+------------
+
+
+Requires the python programming language to work. It is known to work
+with version 2.3.3 (or later), although slightly earlier versions
+might work (it makes use of sets). This project is hard-coded, so you
+are unlikely to be able to adapt it easily to similar projects.
+
+
+Terms of use
+------------
+
+SOUL has been placed in the Public Domain. You can do what you want with it.
+
+
+Author
+------
+
+Mark Carter: mcturra2000 + yahoo + co + uk, www.markcarter.me.uk
+25-Jun-2009

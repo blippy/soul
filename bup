@@ -1,0 +1,4 @@
+cd
+fname=~/soul-`date +%Y%m%d`.tar
+tar cvf $fname ~/soul
+gzip $fname
