@@ -1,5 +1,5 @@
 alias h=history
-alias rmtilde="rm *~"
+alias rmjunk="rm -f *~ *.pyc"
 alias cux="chmod u+x "
 
 PAGER=less; export PAGER

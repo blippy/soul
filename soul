@@ -1,10 +1,10 @@
 #! /usr/bin/bash
 . $HOME/.bashrc
-cd $HOME/soul
+cd $HOME/repos/soul
 alias x=/opt/webstack/bin/python
 
 function activate {
-    /opt/webstack/bin/python $1.py 2>$HOME/soul-cache/$1.err
+    /opt/webstack/bin/python $1.py 2>$HOME/cache/$1.err
 }
 	
 activate filter
@@ -16,3 +16,9 @@ activate shtm
 activate latest
 activate archives
 activate feed
+
+
+
+POSTS=$HOME/cache/posts`/bin/date +%Y%m%d`
+/bin/mkdir $POSTS
+/bin/cp /uu/news/out.going/* $POSTS
