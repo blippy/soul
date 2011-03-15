@@ -19,6 +19,6 @@ activate feed
 
 
 
-POSTS=$HOME/cache/posts`/bin/date +%Y%m%d`
+POSTS=$HOME/cache/posts/`/bin/date +%Y%m%d`
 /bin/mkdir $POSTS
 /bin/cp /uu/news/out.going/* $POSTS
