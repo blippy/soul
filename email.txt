@@ -4,6 +4,7 @@ User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.24) (Not Re
 MIME-Version: 1.0
 Content-Type: text/plain; charset=ISO-8859-1; format=flowed
 Content-Transfer-Encoding: 7bit
+X-No-Archive: yes
 Subject: [SRC-GROUP] links at [TIME]
 
 Here are the latest links on [SRC-GROUP]
