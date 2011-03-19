@@ -3,10 +3,10 @@
 
 import string, time
 
-from settings import cache
+from settings import cache, load_skel
 
 def compose(SrcGroup, DestNewsGroups, DestName):
-	txt = file('email.txt', 'r').read()
+	txt = load_skel('email.txt')
 	txt = txt.replace('[DEST-GROUP]', DestNewsGroups)
 	txt = txt.replace('[SRC-GROUP]', SrcGroup)
 	txt = txt.replace('[TIME]', time.asctime())

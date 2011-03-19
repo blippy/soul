@@ -5,13 +5,13 @@
 #This file is released into the public domain
 #Started 06-May-2004
 # mcarter 26-jun-2006 started major upgrade
-# mcarter 31-mar-2007 path to news is /uu instead of /u2
+
 
 # attempts to filter out garbage
 
 #--------------------------------------------------------------------------#
 
-import datetime, glob, os, re, sets, string
+import datetime, glob, os, re,  string
 
 import settings
 

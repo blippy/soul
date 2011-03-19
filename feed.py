@@ -39,7 +39,7 @@ for date in dates:
     txt += "</item>\n"
 
 
-html = file('feed.rss').read()
+html = load_skel('feed.rss')
 html = html.replace('ITEMS-FIELD',txt)
 
 #n = datetime.datetime.now()

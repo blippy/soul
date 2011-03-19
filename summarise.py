@@ -4,12 +4,13 @@
 #Author: Mark Carter
 #This file is released into the public domain
 #Started 06-May-2004
-# mcarter 26-jun-2006 started major upgrade
+
 
 
 #--------------------------------------------------------------------------#
 
-import glob, re, sets, string
+import glob, re
+import  string
 from os.path import basename
 
 import settings
@@ -18,7 +19,7 @@ import settings
 #--------------------------------------------------------------------------#
 
 def UniqSortedList(l):
-    s = sets.Set(l)
+    s = set(l)
     result = list(s)    
     def cmpfunc(a,b): return cmp(string.lower(a) , string.lower(b))
     result.sort(cmpfunc)
