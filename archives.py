@@ -49,7 +49,7 @@ for date in dates:
     day = '<a href="archives/%s-%s-%s.htm">%s</a> ' % (y, m, d, d)
     txt += day
 
-html = file('archives.htm').read()
+html = load_skel('archives.htm')
 html = html.replace('ARCHIVE-FIELD',txt)
 file(www() + 'archives.htm',"w").write(html)
 

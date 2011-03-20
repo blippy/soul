@@ -5,7 +5,7 @@ import datetime
 
 from settings import *
 
-html = file('latest.htm').read()
+html = load_skel('latest.htm')
 
 genfield = str(datetime.datetime.now())
 html = html.replace('GEN-FIELD',genfield)

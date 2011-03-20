@@ -1,0 +1,6 @@
+;-*- org -*-
+
+* Refactor
+n = datetime.date.today()
+fname = www() + 'archives/' + str(n) + '.htm'
+file(fname,"w").write(html)
