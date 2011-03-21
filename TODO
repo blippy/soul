@@ -1,4 +1,7 @@
-;-*- org -*-
+-*- org -*-
+
+* purge acfg from system, as it seems redundant these days
+* use the cheetah templating system
 
 * Refactor
 n = datetime.date.today()

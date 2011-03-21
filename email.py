@@ -21,6 +21,10 @@ def compose(SrcGroup, DestNewsGroups, DestName):
 			records += heading + '\n' + string.join([ "   " + url  for url in fields ], '\n') + '\n\n'
 
 		txt = txt.replace('[SUMMARY]', records)
+
+	fortune = file(cache() + 'fortune.txt', 'r').read()
+	txt = txt.replace('[SOUL-FORTUNE]', fortune)
+
 	file( cache() + DestName, 'w').write(txt)
 
 def trycompose(SrcGroup, DestNewsGroups, DestName):
@@ -29,8 +33,8 @@ def trycompose(SrcGroup, DestNewsGroups, DestName):
 
 def batch():
 	trycompose('alt.comp.freeware', 'alt.comp.freeware', 'acf.eml')
-	trycompose('alt.comp.freeware.games', 'alt.comp.freeware.games', 'acfg.eml')
-	trycompose('alt.comp.freeware.games', 'alt.comp.freeware, alt.comp.freeware.games', 'both.eml')
+	#trycompose('alt.comp.freeware.games', 'alt.comp.freeware.games', 'acfg.eml')
+	#trycompose('alt.comp.freeware.games', 'alt.comp.freeware, alt.comp.freeware.games', 'both.eml')
 
 if __name__ == '__main__':
 	batch()

@@ -13,8 +13,8 @@ html = html.replace('GEN-FIELD',genfield)
 acf = file(cache() + 'alt.comp.freeware.shtm').read()
 html = html.replace('ACF-FIELD',acf)
 
-acfg = file(cache() + 'alt.comp.freeware.games.shtm').read()
-html = html.replace('ACFG-FIELD',acfg)
+#acfg = file(cache() + 'alt.comp.freeware.games.shtm').read()
+#html = html.replace('ACFG-FIELD',acfg)
 
 file(www() + 'latest.htm',"w").write(html)
 

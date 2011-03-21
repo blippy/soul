@@ -1,5 +1,7 @@
 #! /usr/bin/bash
 . $HOME/.bashrc
+
+fortune >~/cache/fortune.txt
 cd $HOME/repos/soul
 alias x=/opt/webstack/bin/python
 
