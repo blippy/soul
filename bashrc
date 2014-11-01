@@ -12,6 +12,7 @@ PATH=/opt/csw/bin:$PATH
 PATH=/usr/local/bin:$PATH
 PATH=/opt/sfw/bin:$PATH
 PATH=~/soul:$PATH
+PATH=~/.local/bin:$PATH
 
 export PATH
 
